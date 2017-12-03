@@ -1,6 +1,8 @@
-
-import { Person } from './person';
-
-let person = new Person('Bob', 34);
-
-console.log(person.getGreeting());
+class Prod {
+ id:number;
+ name: string;
+    constructor(id:number, name:string){
+            this.id = id;
+            this.name = name;
+    }
+} 
